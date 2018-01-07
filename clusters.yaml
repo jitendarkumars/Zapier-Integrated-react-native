@@ -1,0 +1,7 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: epistolary36-hasura
+  data: null
+  kubeContext: epistolary36
+  name: epistolary36

@@ -1,0 +1,10 @@
+- args:
+    permission:
+      columns:
+      - email
+      - message
+      - id
+      filter: {}
+    role: anonymous
+    table: details
+  type: create_select_permission
